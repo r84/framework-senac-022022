@@ -1,5 +1,5 @@
 <?php
-
+namespace Bootstrap;
 class Env{
 
     private static $mainDir;

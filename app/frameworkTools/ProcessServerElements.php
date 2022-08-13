@@ -6,7 +6,7 @@ class ProcessServerElements{
     private static $instance;
 
     private function __construct(){
-        //throw new Exception("This class can not be started by new Process,only by start function");
+        //singleton
     }
 
     public static function start(){

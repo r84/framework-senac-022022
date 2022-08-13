@@ -15,7 +15,22 @@ class ProcessServerElements{
         }
 
         return ProcessServerElements::$instance;
+    }
 
+    public function setDocumentRoot($documentRoot){
+        $this->documentRoot = $documentRoot;
+    }
+
+    public function getDocumentRoot(){
+        return $this->getDocumentRoot;
+    }
+
+    public function setServerName($serverName){
+        $this->serverName = $serverName;
+    }
+
+    public function getServerName(){
+        return $this->serverName;
     }
 
 }
